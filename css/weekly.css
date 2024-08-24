@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-color: #06141B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.letter {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+}
+
+#loveLetter {
+    font-size: 1.5em;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}

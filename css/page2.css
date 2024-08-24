@@ -1,0 +1,103 @@
+body {
+    background-color: #06141B;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    background-image: url('images/background_1.jpeg');
+    background-size: cover;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    color: aliceblue;
+    margin-bottom: 40px;
+}
+
+#photoGallery {
+    margin-top: 20px;
+}
+
+.gallery-item {
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn {
+    border: none;
+    width: 15em;
+    height: 5em;
+    border-radius: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #06141B;
+    cursor: pointer;
+    transition: all 450ms ease-in-out;
+  }
+  
+  .sparkle {
+    fill: #AAAAAA;
+    transition: all 800ms ease;
+  }
+  
+  .text {
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(0deg, #ffffff, #ffffff);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+      inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+      0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+      0px 0px 180px 0px #ffffff;
+    transform: translateY(-2px);
+  }
+
+  .btn:hover .text {
+    color: rgb(0, 0, 0);
+  }
+  
+  .btn:hover .sparkle {
+    fill: white;
+    transform: scale(1.2);
+  }
