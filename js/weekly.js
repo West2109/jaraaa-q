@@ -1,4 +1,4 @@
-const letterContent = "haii jaraa!,\n\njangan lupa minum vitamin yaaa, walaupun suda tida paskib lagi harus tetep minum biar kuat kaya galpin!!! :D\n\n08/24/2024";
+const letterContent = "haii jaraa!,\n\njangan lupa minum vitamin yaaa, walaupun suda tida paskib lagi harus tetep minum biar kuat kaya galpin!!! :D";
 let index = 0;
 
 function typeLetter() {
