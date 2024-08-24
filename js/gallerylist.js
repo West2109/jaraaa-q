@@ -4,7 +4,7 @@ function openPhoto(photoNumber) {
     const lightboxCaption = document.getElementById("lightbox-caption");
 
     lightbox.style.display = "flex";
-    lightboxImg.src = `/images/photo${photoNumber}.jpg`; // Assuming the images are named photo1.jpg, photo2.jpg, etc.
+    lightboxImg.src = `images/photo${photoNumber}.jpg`; // Assuming the images are named photo1.jpg, photo2.jpg, etc.
     lightboxCaption.innerHTML = `Photo ${photoNumber}`;
 }
 
