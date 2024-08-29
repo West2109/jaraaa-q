@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    background-image: url('/https://raw.githubusercontent.com/West2109/jaraaa-q/main/images/background_1.jpeg');
+    background-image: url('https://raw.githubusercontent.com/West2109/jaraaa-q/main/images/background_1.jpeg');
     background-size: cover;
     padding: 30px;
     border-radius: 15px;
